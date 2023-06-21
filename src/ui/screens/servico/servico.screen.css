@@ -1,0 +1,26 @@
+.servico-screen {
+  height: 100vh;
+  background-image: url(../../../assets/imagens/maquina-de-lavar-2.jpg);
+  background-size: cover;
+}
+
+.conteudo-servicoscreen {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lado-direito-servicoscreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.opcao-servico > h2 {
+  margin-bottom: 16px;
+}
+
+.opcao-servico > p {
+  font-size: 16px;
+}

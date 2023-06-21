@@ -1,0 +1,104 @@
+.footer {
+  height: 300px;
+  background-color: #222;
+  color: white;
+}
+
+.conteudo-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+  height: 300px;
+}
+
+.endereco-footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.contatos-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.informacoes-de-contato-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.informacoes-de-contato-footer > p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.opcoes-de-contato-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.redes-sociais-footer {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.redes-sociais-footer > p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.icons-redes-sociais-footer {
+  display: flex;
+  gap: 10px;
+}
+
+.icon-rs-footer {
+  height: 50px;
+  transition: transform 0.3s ease;
+}
+
+.icon-rs-footer:hover {
+  transform: scale(1.2);
+}
+
+.politica-cnpj-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-direito-autoral-footer {
+  width: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+@media (max-width: 1000px) {
+  .footer,
+  .conteudo-footer {
+    height: auto;
+  }
+
+  .contatos-footer {
+    flex-direction: column;
+    gap: 60px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 720px) {
+  .politica-cnpj-footer {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+  }
+}

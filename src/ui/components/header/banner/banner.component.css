@@ -1,0 +1,62 @@
+.banner {
+  background-image: url(../../../../assets/imagens/maquina-de-lavar.webp);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  padding: 1em;
+}
+
+.conteudo-banner {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.conteudo-banner > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(116, 114, 114, 0.705)
+  );
+  border-radius: 10px;
+  padding: 10px 10px 10px 0;
+  font-size: 20px;
+}
+
+.conteudo-banner > div > p {
+  margin: 10px 0;
+}
+
+.link-saiba-mais {
+  display: flex;
+  gap: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.link-saiba-mais:hover {
+  color: #ffbb22;
+}
+
+.button-saiba-mais {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 850px) {
+  .conteudo-banner {
+    width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  .conteudo-banner {
+    width: 100%;
+  }
+}

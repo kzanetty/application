@@ -1,0 +1,21 @@
+.formulario-contatoscreen {
+  width: 100%;
+  height: 100vh;
+  padding: 24px;
+  background-image: url(../../../assets/imagens/maquina-de-lavar-2.jpg);
+  background-size: cover;
+}
+
+.conteudo-formulario-contatoscreen {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-contato-screen {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,88 @@
+.section-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  background-color: #22222221;
+}
+
+.locais-atendimento-homescreen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.cidades-atendimento-homescreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  width: 60%;
+  padding: 8px;
+  height: 500px;
+}
+
+.opcoes-cidades-atendimentos-homescreen {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+}
+
+.titulo-cidades-atendimentos-homescreen > p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 24px;
+}
+
+.opcoes-cidades-atendimentos-homescreen > p {
+  border: 1px solid rgba(7, 7, 7, 0.226);
+  padding: 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 230px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+}
+
+.container-imagem-mapa-homescreen {
+  width: 50%;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-imagem-mapa-homescreen > img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .cidades-atendimento-homescreen {
+    height: auto;
+    width: 100%;
+  }
+
+  .locais-atendimento-homescreen {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-imagem-mapa-homescreen {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .opcoes-cidades-atendimentos-homescreen {
+    justify-content: center;
+  }
+
+  .container-imagem-mapa-homescreen > img {
+    width: 80%;
+  }
+}

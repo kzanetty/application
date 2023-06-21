@@ -1,36 +1,43 @@
 import "./App.css";
-import { Home } from "./pages/home";
-import { Project } from "./pages/project";
-import { Contact } from "./pages/contact";
 import { Link, Switch, Route } from "react-router-dom";
+
+import path from "./consts/paths";
+import { NavlistComponent } from "./ui/components/navlist/navlist.component";
+import {
+  FabComponent,
+  FooterComponent,
+  ToastrComponent,
+} from "./ui/components";
+import {
+  HomeScreen,
+  ContatoScreen,
+  ServicoScreen,
+  ErrorScreen,
+} from "./ui/screens";
+import { GlobalToastrProvider } from "./context/toastr/toastr.context";
 
 function App() {
   return (
     <>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/project">Project</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
-        </ul>
-      </nav>
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route exact path="/project">
-          <Project />
-        </Route>
-        <Route exact path="/contact">
-          <Contact />
-        </Route>
-      </Switch>
+      <GlobalToastrProvider>
+        <NavlistComponent />
+
+        <Switch>
+          <Route exact path={path.HOME}>
+            <HomeScreen />
+          </Route>
+          <Route exact path={path.SERVICO}>
+            <ServicoScreen />
+          </Route>
+          <Route exact path={path.CONTATO}>
+            <ContatoScreen />
+          </Route>
+        </Switch>
+
+        {/* <ToastrComponent /> */}
+        <FabComponent />
+        <FooterComponent />
+      </GlobalToastrProvider>
     </>
   );
 }
