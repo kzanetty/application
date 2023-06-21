@@ -14,13 +14,13 @@ export function NavlistComponent() {
                     </NavLink>
                     <ul className="lista-navlist">
                         <li>
-                            <NavLink to={path.HOME} className="item-navlist" activeclassname="active">Home</NavLink>
+                            <NavLink exact to={path.HOME} className="item-navlist" activeClassName="active">Home</NavLink>
                         </li>
                         <li>
-                            <NavLink to={path.SERVICO} className="item-navlist" activeclassname="active">Serviços</NavLink>
+                            <NavLink to={path.SERVICO} className="item-navlist" activeClassName="active">Serviços</NavLink>
                         </li>
                         <li>
-                            <NavLink to={path.CONTATO} className="item-navlist" activeclassname="active">Contatos</NavLink>
+                            <NavLink to={path.CONTATO} className="item-navlist" activeClassName="active">Contatos</NavLink>
                         </li>
                     </ul>
                 </div>

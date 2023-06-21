@@ -32,6 +32,9 @@ function App() {
           <Route exact path={path.CONTATO}>
             <ContatoScreen />
           </Route>
+          <Route exact path={path.ERROR}>
+            <ErrorScreen />
+          </Route>
         </Switch>
 
         <ToastrComponent />
