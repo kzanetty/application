@@ -1,13 +1,22 @@
 {
   "files": {
-    "main.css": "/application/static/css/main.073c9b0a.css",
-    "main.js": "/application/static/js/main.44219214.js",
+    "main.css": "/application/static/css/main.20239170.css",
+    "main.js": "/application/static/js/main.e87fbc8a.js",
+    "static/media/maquina-de-lavar-2.jpg": "/application/static/media/maquina-de-lavar-2.065f876dddb6033406db.jpg",
+    "static/media/mapa-atendimento.png": "/application/static/media/mapa-atendimento.0f5a04afb0209bde8c8e.png",
+    "static/media/maquina-de-lavar.webp": "/application/static/media/maquina-de-lavar.f27c3a0b72c98ff5b10e.webp",
+    "static/media/LOGO-JR-ASSISTENCIA-SEM-FUNDO.webp": "/application/static/media/LOGO-JR-ASSISTENCIA-SEM-FUNDO.fa4f9570d8b29b000249.webp",
+    "static/media/icon-instagram.png": "/application/static/media/icon-instagram.79535458a8a6d88f81d4.png",
+    "static/media/icon-whatsapp.png": "/application/static/media/icon-whatsapp.d026940870fb334920b7.png",
+    "static/media/icon-direito-autoral.png": "/application/static/media/icon-direito-autoral.737277ba21a9060cef70.png",
+    "static/media/icon-facebook.png": "/application/static/media/icon-facebook.4f037d961598aff2a0a4.png",
     "index.html": "/application/index.html",
-    "main.073c9b0a.css.map": "/application/static/css/main.073c9b0a.css.map",
-    "main.44219214.js.map": "/application/static/js/main.44219214.js.map"
+    "static/media/arrow-saiba-mais.svg": "/application/static/media/arrow-saiba-mais.6da1e356a5b50e401f50e861de0bc13c.svg",
+    "main.20239170.css.map": "/application/static/css/main.20239170.css.map",
+    "main.e87fbc8a.js.map": "/application/static/js/main.e87fbc8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.44219214.js"
+    "static/css/main.20239170.css",
+    "static/js/main.e87fbc8a.js"
   ]
 }
