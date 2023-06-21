@@ -34,7 +34,7 @@ function App() {
           </Route>
         </Switch>
 
-        {/* <ToastrComponent /> */}
+        <ToastrComponent />
         <FabComponent />
         <FooterComponent />
       </GlobalToastrProvider>
