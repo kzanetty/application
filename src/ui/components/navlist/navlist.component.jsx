@@ -24,7 +24,6 @@ export function NavlistComponent() {
                         </li>
                     </ul>
                 </div>
-
             </ContainerComponent>
         </nav>
     )

@@ -32,19 +32,26 @@
   margin: 10px 0;
 }
 
+.div-link-service {
+  display: flex;
+}
+
 .button-saiba-mais {
   display: flex;
   align-items: center;
   gap: 10px;
   text-decoration: none;
   color: #fff;
-  background-color: transparent;
-  border: none;
+  padding: 4px;
   cursor: pointer;
+  font-size: 16px;
+  border-bottom: 3px solid rgba(65, 65, 65, 0.767);
+  border-radius: 8px 8px 0 0;
 }
 
 .button-saiba-mais:hover {
   color: #ffbb22;
+  background-color: rgba(231, 231, 231, 0.041);
 }
 
 @media (max-width: 850px) {

@@ -1,9 +1,11 @@
 import "./fab.component.css"
+import redes from "../../../consts/redes";
 
 export function FabComponent() {
     function irParaWhatsappWeb() {
-        console.log("implementar logica aqui - enviar para whatsapp web")
+        window.open(redes.WHATSAPP);
     }
+
     return (
         <button className="floating-button" onClick={irParaWhatsappWeb}>
         </button>
