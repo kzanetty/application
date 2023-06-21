@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/application/static/css/main.6bc287e3.css",
-    "main.js": "/application/static/js/main.c7b5b630.js",
+    "main.js": "/application/static/js/main.622e4888.js",
     "static/media/maquina-de-lavar-2.jpg": "/application/static/media/maquina-de-lavar-2.065f876dddb6033406db.jpg",
     "static/media/mapa-atendimento.png": "/application/static/media/mapa-atendimento.0f5a04afb0209bde8c8e.png",
     "static/media/maquina-de-lavar.webp": "/application/static/media/maquina-de-lavar.f27c3a0b72c98ff5b10e.webp",
@@ -13,10 +13,10 @@
     "index.html": "/application/index.html",
     "static/media/arrow-saiba-mais.svg": "/application/static/media/arrow-saiba-mais.6da1e356a5b50e401f50e861de0bc13c.svg",
     "main.6bc287e3.css.map": "/application/static/css/main.6bc287e3.css.map",
-    "main.c7b5b630.js.map": "/application/static/js/main.c7b5b630.js.map"
+    "main.622e4888.js.map": "/application/static/js/main.622e4888.js.map"
   },
   "entrypoints": [
     "static/css/main.6bc287e3.css",
-    "static/js/main.c7b5b630.js"
+    "static/js/main.622e4888.js"
   ]
 }
