@@ -1,5 +1,7 @@
 # JR Assistência Técnica
 
+Acesse a aplicação: https://kzanetty.github.io/application/#/application/
+
 ## Descrição
 
 A aplicação JR Assistência Técnica é uma página web desenvolvida utilizando React, React Router DOM e GitHub Pages. Ela foi projetada para fornecer uma plataforma interativa para uma assistência técnica, permitindo que os usuários entrem em contato e solicitem serviços de reparo.
